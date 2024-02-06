@@ -21,7 +21,7 @@ let i = 0
 let primoTemp = 1
 
 while (i < cantidad) {
-    if(prime(primoTemp)){
+    if(prime(primoTemp) || false){
         console.log(i+1, "->", primoTemp)
         i++
     }
